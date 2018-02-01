@@ -1,5 +1,5 @@
 ---
-title: "_Index"
+title: "Dokumentation"
 date: 2018-02-01T08:55:40+01:00
 draft: true
 ---
