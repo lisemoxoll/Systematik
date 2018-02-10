@@ -1,4 +1,33 @@
-baseURL = "http://example.org/"
+baseURL = "https://github.com/lisemoxoll/Systematik.git"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Moxoll Theme"
 theme = "systematik"
+
+
+[[menu.main]]
+
+name= "Home"
+title= "Home section"
+weight= "1"
+indentifier="home"
+url="/"
+
+[[menu.main]]
+
+name= "Guide"
+title= "Guide"
+weight= "2"
+indentifier="dokumentation"
+url="/dokumentation/"
+
+[[menu.main]]
+
+name= "Contact"
+title= "Contact"
+weight= "3"
+indentifier="om"
+url="../om"
+
+
+
+

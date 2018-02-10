@@ -2,9 +2,28 @@
 
 <head>
 
-    <link rel="stylesheet" href="{{.Site.BaseURL}}css/normalize.css">
-    <link rel="stylesheet" href="{{.Site.BaseURL}}css/style.css">
+    <link rel="stylesheet" href="{{.Site.BaseURL}}/css/normalize.css">
+
+    <link rel="stylesheet" href="{{.Site.BaseURL}}/css/flexboxgrid.min.css">
+
+    <link rel="stylesheet" href="{{.Site.BaseURL}}/css/style.css">
+
+
 </head>
 
 <body>
-    Kodyl site og knæhøj karse
+
+
+
+
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> {{ $currentPage := . }} {{ range .Site.Menus.main }}
+
+        <!--<a class="sidebar-nav-item{{if or ($currentPage.IsMenuCurrent " main " .) ($currentPage.HasMenuCurrent "main " .) }} active{{end}}" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>-->
+        <a class="menu" href="{{.URL}}">{{.Name}}</a> {{ end }}
+
+    </div>
+
+
+    <span class="burger" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
