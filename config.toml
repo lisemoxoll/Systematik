@@ -1,4 +1,4 @@
-baseURL = "https://github.com/lisemoxoll/Systematik.git"
+baseURL = "http://lisemoxolll.dk/kea/public/"
 languageCode = "en-us"
 title = "Moxoll Theme"
 theme = "systematik"
