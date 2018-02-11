@@ -111,7 +111,7 @@ h4 {
 .sidenav a {
     padding: 30px 8px 8px 32px;
     text-decoration: none;
-    font-size: 150px;
+    font-size: 100px;
     color: $pink;
     display: block;
     transition: 0.3s;
@@ -126,9 +126,9 @@ h4 {
     position: absolute;
     top: 0;
     right: 25px;
-    font-size: 180px;
-    margin-left: 50px;
-    margin-top: -48px;
+    font-size: 150px;
+    margin-left: 60px;
+    margin-top: -75px;
     cursor: pointer;
     display: block;
 }
@@ -288,7 +288,7 @@ label {
         font-size: 1.8em;
     }
     img {
-        margin: 10vh 0 0 -54vw;
+        margin: 0 0 0 -54vw;
         width: 98vw;
     }
     .download_btn {
@@ -303,8 +303,8 @@ label {
         font-size: 80px;
     }
     .sidenav a {
-        padding: 30px 8px 8px 32px;
-        font-size: 100px;
+        padding: 30px 25px 8px 32px;
+        font-size: 50px;
     }
     .sidenav {
         height: 100vh;
@@ -322,6 +322,10 @@ label {
     }
     .title {
         margin-left: 2vw;
+    }
+    .overskrift {
+        margin-top: 12vw;
+        margin-left: 9vw;
     }
 }
 
@@ -361,5 +365,8 @@ label {
     .designer {
         margin-left: 4.8em;
         margin-right: 1.5em;
+    }
+    .closebtn {
+        font-size: 80px;
     }
 }
