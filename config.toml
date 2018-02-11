@@ -25,8 +25,8 @@ url="/dokumentation/"
 name= "Contact"
 title= "Contact"
 weight= "3"
-indentifier="om"
-url="../om"
+indentifier="contact"
+url="../contact"
 
 
 
