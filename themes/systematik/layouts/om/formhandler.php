@@ -28,11 +28,7 @@ $inputerror = "";
         }
       }
     
-    if (empty($_POST["henvendelse"])) {
-        $inputerror .= "Årsag for henvendelse skal udfyldes";
-      } else {
-            $henvendelse = test_input($_POST["henvendelse"]);
-      }
+//    if (empty($_POST["henvendelse"])) { // $inputerror .= "Årsag for henvendelse skal udfyldes"; // } else { // $henvendelse = test_input($_POST["henvendelse"]); // }
 
     if (empty($_POST["besked"])) {
         $inputerror .= "Indtast venligst lidt i tekstfeltet om hvorfor du vil i kontakt med os.";

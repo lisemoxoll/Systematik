@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>_Index on Moxoll Theme</title>
+    <link>http://lisemoxolll.dk/kea/public/datavisualisering/</link>
+    <description>Recent content in _Index on Moxoll Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 08 Feb 2018 08:49:57 +0100</lastBuildDate>
+    
+	<atom:link href="http://lisemoxolll.dk/kea/public/datavisualisering/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>
