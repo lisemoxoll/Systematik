@@ -70,8 +70,10 @@
     }
     
     h3 {
-        font-size: 1.2em;
+        font-size: 1.2rem;
         font-weight: 400;
+        margin-right: 20em;
+        margin-left: 14em;
     }
     
     h4 {
@@ -166,6 +168,12 @@
         margin-left: -8vw;
         width: 80vw;
         position: relative;
+    }
+    
+    .guide_txt {
+        font-size: 1rem;
+        margin-right: 20em;
+        margin-left: 15em;
     }
     /*************** DOWNLOAD BTN *****************/
     

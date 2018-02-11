@@ -55,8 +55,10 @@ h2 {
   font-size: 2.827em; }
 
 h3 {
-  font-size: 1.2em;
-  font-weight: 400; }
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-right: 20em;
+  margin-left: 14em; }
 
 h4 {
   font-size: 1.414em; }
@@ -119,6 +121,11 @@ img {
   margin-left: -8vw;
   width: 80vw;
   position: relative; }
+
+.guide_txt {
+  font-size: 1rem;
+  margin-right: 20em;
+  margin-left: 15em; }
 
 /*************** DOWNLOAD BTN *****************/
 .download_btn {

@@ -4,6 +4,8 @@ date: 2018-02-01T08:56:16+01:00
 
 ---
 
-Formularer
+I dette tema medfølger en form, som kan bruges til 
+at komme i kontakt med sine kunder.
 
-Feedback på handlinger (f.eks. formularer)
+I formhandler.php filen, indsætter du navnet på den mail,
+som skal modtage. E-mailen indsættes i modtager variablen.

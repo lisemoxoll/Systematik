@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Contact on Moxoll Theme</title>
+    <link>http://lisemoxolll.dk/kea/public/contact/</link>
+    <description>Recent content in Contact on Moxoll Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us-da</language>
+    <lastBuildDate>Thu, 01 Feb 2018 09:02:09 +0100</lastBuildDate>
+    
+	<atom:link href="http://lisemoxolll.dk/kea/public/contact/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>
