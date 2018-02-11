@@ -1,5 +1,3 @@
-
-
 function openNav() {
     document.getElementById("mySidenav").style.width = "100vw";
 }
@@ -56,6 +54,7 @@ $(".download_btn").hover(function () {
 
 
 
+
 // Tweenmax
 
 //window.addEventListener("load", altErLoadet);
@@ -78,5 +77,3 @@ $(".download_btn").hover(function () {
 //function hveranimationslut() {
 //    console.log("hveranimationslut")
 //}
-
-

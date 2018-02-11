@@ -1,16 +1,39 @@
 /*************** COLOURS *****************/
 /*************** PRELOADER *****************/
+#preloader {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  overflow: visible;
+  background-color: white;
+  transition: 1s linear;
+  opacity: 1; }
+
+#preloader_img {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  background: url("https://loading.io/spinners/liquid/lg.liquid-fill-preloader.gif") no-repeat center center; }
+
+#container,
+#footer {
+  display: none; }
+
 /*************** TYPOGRAFI *****************/
 body {
   background-color: #dba995;
-  font-weight: 400;
-  line-height: 1.45;
-  color: #cecbcb;
+  font-weight: 200;
+  line-height: 1.30;
+  color: #6B474B;
   font-size: 3em;
   font-family: 'Montserrat'; }
 
 p {
-  margin-bottom: 1.3em; }
+  margin-bottom: 1.3em;
+  margin-left: 1.3em;
+  margin-right: 1.3em; }
 
 h2,
 h3,
@@ -21,8 +44,8 @@ h4 {
 
 h1,
 .title {
-  margin-top: 5rem;
-  margin-left: 2.2rem;
+  margin-top: 8rem;
+  margin-left: 3rem;
   font-size: 1.5em;
   font-family: 'Didot';
   color: #6B474B;
@@ -32,33 +55,74 @@ h2 {
   font-size: 2.827em; }
 
 h3 {
-  font-size: 1.999em; }
+  font-size: 1.2em;
+  font-weight: 400; }
 
 h4 {
   font-size: 1.414em; }
 
 .overskrift {
   z-index: 100;
-  position: absolute; }
+  position: absolute;
+  margin-top: 30vw;
+  margin-left: 4vw; }
 
 /*************** Navigation *****************/
+.sidenav {
+  height: 100vh;
+  position: fixed;
+  z-index: 200;
+  top: 0;
+  left: 0;
+  background-color: black;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  display: list-item; }
+
+.sidenav a {
+  padding: 30px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 150px;
+  color: #dba995;
+  display: block;
+  transition: 0.3s; }
+
+.sidenav a:hover {
+  color: #dba995;
+  cursor: pointer; }
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 180px;
+  margin-left: 50px;
+  margin-top: -48px;
+  cursor: pointer;
+  display: block; }
+
+.burger {
+  font-size: 100px;
+  color: rgba(0, 0, 0, 0.6); }
+
 /*************** Basic *****************/
 .container {
   margin: 0 auto; }
 
 .footer_row {
-  margin-top: 10vw;
-  margin-left: 11vw; }
+  margin-top: 15vw;
+  margin-left: 8vw; }
 
 img {
-  margin-top: 100px;
-  margin-left: 30vw;
-  width: 60vw;
+  margin-top: 50vw;
+  margin-left: -8vw;
+  width: 80vw;
   position: relative; }
 
 /*************** DOWNLOAD BTN *****************/
 .download_btn {
-  width: 600px;
+  width: 500px;
   height: 80px;
   font-size: 55px;
   color: #dba995;
@@ -70,7 +134,8 @@ img {
   transition: all .5s ease;
   border-radius: 3px;
   cursor: pointer;
-  margin-left: 4vw; }
+  margin-left: 9vw;
+  margin-top: 15vw; }
 
 a {
   text-decoration: none;
@@ -129,35 +194,78 @@ input[type=submit]:hover {
 label {
   color: #dba995; }
 
+/*************** Cards *****************/
 /*************** Medium device *****************/
 /*************** Medium device *****************/
 /*************** Medium device *****************/
 /*************** Medium device *****************/
 /*************** Medium device *****************/
 @media screen and (min-width: 1024px) {
-  body {
-    background-color: blue; }
-
-  h1,
-  .title {
+  h1 {
     margin-top: 16rem;
     margin-left: 5rem;
-    font-size: 1.8em; } }
-img {
-  margin: 10vh 0 0 -42.5vw;
-  width: 98vw; }
+    font-size: 1.8em; }
 
-.download_btn {
-  width: 500px;
-  font-size: 50px;
-  padding: 16px 20px;
-  border-radius: 15px;
-  margin-left: -20vw; }
+  img {
+    margin: 10vh 0 0 -54vw;
+    width: 98vw; }
 
+  .download_btn {
+    width: 500px;
+    font-size: 60px;
+    padding: 16px 20px;
+    border-radius: 15px;
+    margin-left: -20vw;
+    margin-top: -2.5vw; }
+
+  .burger {
+    font-size: 80px; }
+
+  .sidenav a {
+    padding: 30px 8px 8px 32px;
+    font-size: 100px; }
+
+  .sidenav {
+    height: 100vh; }
+
+  .footer_row {
+    margin-top: 5vw; }
+
+  p {
+    margin-left: 2.5em;
+    margin-right: 2.5em; }
+
+  .designer {
+    margin-left: 1.5em;
+    margin-right: 1.5em; }
+
+  .title {
+    margin-left: 2vw; } }
 /*************** Large device *****************/
 /*************** Large device *****************/
 /*************** Large device *****************/
 /*************** Large device *****************/
 /*************** Large device *****************/
+@media screen and (min-width: 1440px) {
+  img {
+    margin: 0 0 0 -51.5vw;
+    width: 98vw; }
+
+  .overskrift {
+    margin-top: 15vw;
+    margin-left: 3vw;
+    font-size: 2.5em; }
+
+  .download_btn {
+    width: 500px;
+    font-size: 60px;
+    padding: 16px 20px;
+    border-radius: 15px;
+    margin-left: -14vw;
+    margin-top: 0; }
+
+  .designer {
+    margin-left: 4.8em;
+    margin-right: 1.5em; } }
 
 /*# sourceMappingURL=style.css.map */
